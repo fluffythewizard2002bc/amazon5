@@ -1,101 +1,130 @@
-    * {
-        box-sizing: border-box;
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    @import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
-    @import url(//db.onlinewebfonts.com/c/02fcddff61b677f4989d2933d574ca89?family=Amazon+Ember);
-    @font-face {
-        font-family: "Amazon Ember";
-        src: url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.eot");
-        src: url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.woff") format("woff"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.svg#Amazon Ember") format("svg");
-    }
-    
-    @font-face {
-        font-family: "Amazon Ember";
-        src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot");
-        src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg");
-    }
-    
-    body {
-        font-family: "Amazon Ember";
-    }
-    
-    .page1 {
-        height: 100vh;
-    }
-    
-    .nav1 {
-        height: 3.75rem;
-        background-color: #131921;
-    }
-    
-    ul,
-    li,
-    a {
-        list-style: none;
-        text-decoration: none;
-    }
-    
-    .logoCont {
-        display: flex;
-        padding: 1.1rem;
-        height: 3.75rem;
-    }
-    
-    .nav1-left {
-        height: 3.75rem;
-        display: flex;
-    }
-    
-    .logo {
-        background: url('/assets/pics/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -51px;
-        width: 96px;
-        height: 29px;
-        border-radius: 2px;
-        cursor: pointer;
-        margin-right: 10px;
-    }
-    
-    .delivery {
-        display: flex;
-        margin-left: 12px;
-    }
-    
-    .deliverWho {
-        color: #ccc;
-        font-size: 13px;
-        font-weight: 400;
-        align-items: baseline;
-        margin-top: 15px;
-    }
-    
-    .deliverWhere {
-        display: flex;
-        margin-left: -70px;
-        margin-top: 26px;
-        justify-content: center;
-    }
-    
-    .deliverIcon {
-        color: #fff;
-        background: url('/assets/pics/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -71px -379px;
-        width: 15px;
-        height: 17px;
-    }
-    
-    .israel {
-        color: #fff;
-        font-size: 15px;
-        font-weight: 900;
-        padding-left: 2px;
-        padding-bottom: 0px;
-        padding-right: 0;
-    }
-    
-    .nav2-right {
-        width: 20px;
-        height: 20px;
-        background: url("/assets/pics/canvas1-1.png.png");
-    }
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+@import url(//db.onlinewebfonts.com/c/02fcddff61b677f4989d2933d574ca89?family=Amazon+Ember);
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.eot");
+    src: url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.woff") format("woff"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/02fcddff61b677f4989d2933d574ca89.svg#Amazon Ember") format("svg");
+}
+
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot");
+    src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg");
+}
+
+body {
+    font-family: "Amazon Ember";
+}
+
+.page1 {
+    height: 100vh;
+    width: auto;
+}
+
+.nav1 {
+    height: 3.75rem;
+    background-color: #131921;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.nav2 {
+    max-height: 39px;
+    padding-top: 0;
+    display: flex;
+    width: auto;
+    flex-flow: row nowrap;
+    background-image: none;
+    background-color: #232f3e;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    border: 1px solid transparent;
+    box-shadow: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+a:hover {
+    border: 1px solid #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.logoCont {
+    display: flex;
+    margin-left: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.nav1-left {
+    height: 3.75rem;
+    display: flex;
+}
+
+.logo {
+    background: url('/assets/pics/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -51px;
+    width: 96px;
+    height: 29px;
+    margin-top: 5px;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 11px;
+    margin-bottom: 3px;
+    margin-top: 7px;
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.deliverWho {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 19px;
+    padding-top: 3px;
+}
+
+.deliverWhere {
+    display: flex;
+    padding-left: 1px;
+}
+
+.deliverIcon {
+    color: #fff;
+    background: url('/assets/pics/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -71px -379px;
+    width: 15px;
+    font-weight: 700;
+    height: 17px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: -3px;
+}
+
+.israel {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-right: 4px;
+}
